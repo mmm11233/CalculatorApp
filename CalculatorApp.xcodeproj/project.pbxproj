@@ -54,14 +54,30 @@
 		396AF4162DFA23E400B80360 /* CalculatorApp */ = {
 			isa = PBXGroup;
 			children = (
-				396AF4172DFA23E400B80360 /* AppDelegate.swift */,
-				396AF4192DFA23E400B80360 /* SceneDelegate.swift */,
-				396AF41B2DFA23E400B80360 /* ViewController.swift */,
+				39DE4CAE2DFAED5700539B05 /* Application */,
+				39DE4CAF2DFAED6A00539B05 /* View */,
 				396AF4202DFA23FC00B80360 /* Assets.xcassets */,
 				396AF4222DFA23FC00B80360 /* LaunchScreen.storyboard */,
 				396AF4252DFA23FC00B80360 /* Info.plist */,
 			);
 			path = CalculatorApp;
+			sourceTree = "<group>";
+		};
+		39DE4CAE2DFAED5700539B05 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				396AF4172DFA23E400B80360 /* AppDelegate.swift */,
+				396AF4192DFA23E400B80360 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		39DE4CAF2DFAED6A00539B05 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				396AF41B2DFA23E400B80360 /* ViewController.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
